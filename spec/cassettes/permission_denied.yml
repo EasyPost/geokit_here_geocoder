@@ -23,15 +23,15 @@ http_interactions:
       Content-Type:
       - application/xml;charset=utf-8
       Date:
-      - Thu, 08 Sep 2016 20:10:14 GMT
+      - Thu, 08 Sep 2016 22:12:01 GMT
       Server:
       - nginx-clojure
       X-Nlp-Irt:
-      - '1326'
+      - '955'
       X-Nlp-Log:
       - ''
       X-Nlp-Tid:
-      - 8a8d745e-7098-4d88-b9de-5cd4480ae7cc
+      - 08b8079e-9848-45d2-ba7c-537c48d49e46
       X-Served-By:
       - i-0a61c712.us-west-2a
       Content-Length:
@@ -43,5 +43,5 @@ http_interactions:
       string: <ns2:Error xmlns:ns2="http://www.navteq.com/lbsp/Errors/1" type="PermissionError"
         subtype="InvalidCredentials"><Details>invalid credentials for test</Details></ns2:Error>
     http_version: 
-  recorded_at: Thu, 08 Sep 2016 20:10:15 GMT
+  recorded_at: Thu, 08 Sep 2016 22:12:01 GMT
 recorded_with: VCR 3.0.3

@@ -25,24 +25,24 @@ http_interactions:
       Content-Type:
       - application/xml;charset=utf-8
       Date:
-      - Thu, 08 Sep 2016 20:11:43 GMT
+      - Thu, 08 Sep 2016 22:12:01 GMT
       Server:
       - nginx-clojure
       X-Nlp-Irt:
-      - '2929'
+      - '4414'
       X-Nlp-Log:
       - Z2NfYz1VU0EgZ2NfbD1jaXR5IGdjX209YXI=
       X-Nlp-Tid:
-      - d0d1ed09-1cda-4ca9-a2a1-5ee746f81500
+      - 06eae949-4ffa-4aaa-9bc2-9b018d2f6a63
       X-Served-By:
       - i-0a61c712.us-west-2a
       Content-Length:
-      - '627'
+      - '626'
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2016-09-08T19:47:49.087Z</Timestamp></MetaInfo><View
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2016-09-08T22:12:01.403Z</Timestamp></MetaInfo><View
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:SearchResultsViewType"><ViewId>0</ViewId><Result><Relevance>1.0</Relevance><MatchLevel>city</MatchLevel><MatchQuality><State>1.0</State><City>1.0</City></MatchQuality><Location><LocationId>NT_FE3T7HawlbK76SxDmyKlUA</LocationId><LocationType>area</LocationType><DisplayPosition><Latitude>37.37172</Latitude><Longitude>-122.03801</Longitude></DisplayPosition><NavigationPosition><Latitude>37.37172</Latitude><Longitude>-122.03801</Longitude></NavigationPosition><MapView><TopLeft><Latitude>37.45103</Latitude><Longitude>-122.06566</Longitude></TopLeft><BottomRight><Latitude>37.3323</Latitude><Longitude>-121.98241</Longitude></BottomRight></MapView><Address><Label>Sunnyvale,
         CA, United States</Label><Country>USA</Country><State>CA</State><County>Santa
         Clara</County><City>Sunnyvale</City><PostalCode>94086</PostalCode><AdditionalData
@@ -50,5 +50,5 @@ http_interactions:
         States</AdditionalData><AdditionalData key="StateName">California</AdditionalData><AdditionalData
         key="CountyName">Santa Clara</AdditionalData><AdditionalData key="PostalCodeType">N</AdditionalData></Address></Location></Result></View></Response></ns2:Search>
     http_version: 
-  recorded_at: Thu, 08 Sep 2016 20:11:43 GMT
+  recorded_at: Thu, 08 Sep 2016 22:12:01 GMT
 recorded_with: VCR 3.0.3

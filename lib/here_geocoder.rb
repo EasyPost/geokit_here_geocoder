@@ -1,4 +1,5 @@
-require 'geokit'
+require "uri"
+require "geokit"
 
 module Geokit
   module Geocoders
@@ -19,17 +20,17 @@ module Geokit
 
       def self.submit_url(address)
         args = []
-        args << "app_id=#{Geokit::Inflector.url_escape(app_id)}"
-        args << "app_code=#{Geokit::Inflector.url_escape(app_code)}"
-        args << "additionaldata=Country2,1"
-        args << "language=en-US"
-        args << "gen=9"
+        args << ["app_id", app_id]
+        args << ["app_code", app_code]
+        args << ["additionaldata", "Country2,1"]
+        args << ["language", "en-US"]
+        args << ["gen", "9"]
 
         address_str = address.is_a?(GeoLoc) ? address.to_geocodeable_s : address
 
-        args << "searchtext=#{Geokit::Inflector.url_escape(address_str)}"
+        args << ["searchtext", address_str]
 
-        [api_endpoint, '?', args.join('&')].join('')
+        [api_endpoint, '?', URI.encode_www_form(args)].join('')
       end
 
       def self.api_endpoint

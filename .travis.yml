@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.1
+  - 2.2
+  - 2.3.0
+script: "bundle exec rake test"
+notifications:
+  email:
+    - sergey.rozum+geocoder@gmail.com
+sudo: false
+cache: bundler

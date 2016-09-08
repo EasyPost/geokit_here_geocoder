@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://geocoder.cit.api.here.com/6.2/geocode.xml?additionaldata=Country2,1&app_code=<HERE_APP_CODE>&app_id=<HERE_APP_ID>&gen=9&language=en-US&searchtext=Abcdefg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=86400
+      Content-Type:
+      - application/xml;charset=utf-8
+      Date:
+      - Thu, 08 Sep 2016 20:11:43 GMT
+      Server:
+      - nginx-clojure
+      X-Nlp-Irt:
+      - '1383'
+      X-Nlp-Log:
+      - Z2NfYz0tIGdjX2w9LSBnY19tPWFk
+      X-Nlp-Tid:
+      - daf93d23-30ab-4162-bfe0-f1f1a08b8944
+      X-Served-By:
+      - i-0a61c712.us-west-2a
+      Content-Length:
+      - '185'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2016-09-08T19:54:35.721Z</Timestamp></MetaInfo></Response></ns2:Search>
+    http_version: 
+  recorded_at: Thu, 08 Sep 2016 20:11:43 GMT
+recorded_with: VCR 3.0.3

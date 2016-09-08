@@ -20,5 +20,6 @@ tmp
 *.o
 *.a
 mkmf.log
+.env
 .ruby-version
 .ruby-gemset

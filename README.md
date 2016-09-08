@@ -2,9 +2,10 @@
 
 # HereGeocoder
 
-Custom geocoder for Here.com service
+Custom [geokit](https://github.com/geokit/geokit) geocoder for [Here.com](https://company.here.com/here/) service.
 
-https://developer.here.com/rest-apis/documentation/geocoder/topics/quick-start.html
+[API Documentation](https://developer.here.com/rest-apis/documentation/geocoder/topics/quick-start.html)
+
 
 ## Installation
 
@@ -33,7 +34,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+    # use :here to specify this geocoder in your list of geocoders.
+    Geokit::Geocoders::HereGeocoder.geocode("Sunnyvale, CA")
+```
 
 ## Contributing
 

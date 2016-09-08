@@ -1,0 +1,47 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://geocoder.cit.api.here.com/6.2/geocode.xml?additionaldata=Country2,1&app_code=fake&app_id=test&gen=9&language=en-US&searchtext=Sunnyvale,%20CA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Type:
+      - application/xml;charset=utf-8
+      Date:
+      - Thu, 08 Sep 2016 20:10:14 GMT
+      Server:
+      - nginx-clojure
+      X-Nlp-Irt:
+      - '1326'
+      X-Nlp-Log:
+      - ''
+      X-Nlp-Tid:
+      - 8a8d745e-7098-4d88-b9de-5cd4480ae7cc
+      X-Served-By:
+      - i-0a61c712.us-west-2a
+      Content-Length:
+      - '170'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: <ns2:Error xmlns:ns2="http://www.navteq.com/lbsp/Errors/1" type="PermissionError"
+        subtype="InvalidCredentials"><Details>invalid credentials for test</Details></ns2:Error>
+    http_version: 
+  recorded_at: Thu, 08 Sep 2016 20:10:15 GMT
+recorded_with: VCR 3.0.3

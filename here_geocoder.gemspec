@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'here_geocoder/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "here_geocoder"
-  spec.version       = HereGeocoder::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Serhiy Rozum"]
   spec.email         = ["sergey.rozum@gmail.com"]
   spec.summary       = %q{Geokit custom geocoder for Here.com service}
@@ -21,8 +20,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
-  # spec.add_development_dependency "vcr"
-  # spec.add_development_dependency "webmock" # used in vcr
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
 
   spec.add_dependency "geokit"
 

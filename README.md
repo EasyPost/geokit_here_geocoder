@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/here_geocoder.svg)](https://badge.fury.io/rb/here_geocoder)
 [![Build Status](https://travis-ci.org/srozum/here_geocoder.svg?branch=master)](https://travis-ci.org/srozum/here_geocoder)
 
 # HereGeocoder

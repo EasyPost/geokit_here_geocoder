@@ -1,7 +1,7 @@
 ENV['RAKE_ENV'] = 'test'
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'here_geocoder'
+require 'geokit_here_geocoder'
 
 require "vcr"
 

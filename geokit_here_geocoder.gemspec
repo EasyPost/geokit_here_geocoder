@@ -3,13 +3,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = "here_geocoder"
+  spec.name          = "geokit_here_geocoder"
   spec.version       = "0.0.2"
   spec.authors       = ["Serhiy Rozum"]
-  spec.email         = ["sergey.rozum@gmail.com"]
+  spec.email         = ["serhiy@easypost.com"]
   spec.summary       = %q{Geokit custom geocoder for Here.com service}
   spec.description   = %q{Geokit custom geocoder for Here.com service}
-  spec.homepage      = "https://github.com/srozum/here_geocoder.git"
+  spec.homepage      = "https://github.com/easypost/geokit_here_geocoder.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

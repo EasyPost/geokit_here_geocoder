@@ -1,5 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/here_geocoder.svg)](https://badge.fury.io/rb/here_geocoder)
-[![Build Status](https://travis-ci.org/srozum/here_geocoder.svg?branch=master)](https://travis-ci.org/srozum/here_geocoder)
+[![Gem Version](https://badge.fury.io/rb/geokit_here_geocoder.svg)](https://badge.fury.io/rb/geokit_here_geocoder)
 
 # HereGeocoder
 
@@ -12,7 +11,7 @@ Custom [geokit](https://github.com/geokit/geokit) geocoder for [Here.com](https:
 
 Add this line to your application's Gemfile:
 
-    gem 'here_geocoder'
+    gem 'geokit_here_geocoder'
 
 And then execute:
 
@@ -20,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install here_geocoder
+    $ gem install geokit_here_geocoder
 
 ## Configuration
 
@@ -42,7 +41,7 @@ Or install it yourself as:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/here_geocoder/fork )
+1. Fork it ( https://github.com/[my-github-username]/geokit_here_geocoder/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

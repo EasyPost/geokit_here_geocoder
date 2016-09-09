@@ -1,4 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/geokit_here_geocoder.svg)](https://badge.fury.io/rb/geokit_here_geocoder)
+[![CircleCI](https://circleci.com/gh/EasyPost/geokit_here_geocoder.svg?style=svg)](https://circleci.com/gh/EasyPost/geokit_here_geocoder)
 
 # HereGeocoder
 

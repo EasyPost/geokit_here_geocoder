@@ -44,7 +44,6 @@ module Geokit
       XML_MAPPINGS = {
         street_number: "Location/Address/HouseNumber",
         street_name:   "Location/Address/Street",
-        province:      "Location/Address/County",
         city:          "Location/Address/City",
         state_name:    "Location/Address/AdditionalData[@key='StateName']",
         state_code:    "Location/Address/State",

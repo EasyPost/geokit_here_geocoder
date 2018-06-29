@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/geokit_here_geocoder.svg)](https://badge.fury.io/rb/geokit_here_geocoder)
-[![CircleCI](https://circleci.com/gh/EasyPost/geokit_here_geocoder.svg?style=svg)](https://circleci.com/gh/EasyPost/geokit_here_geocoder)
+[![Build Status](https://travis-ci.org/EasyPost/geokit_here_geocoder.svg?branch=master)](https://travis-ci.org/EasyPost/geokit_here_geocoder)
 
 # HereGeocoder
 

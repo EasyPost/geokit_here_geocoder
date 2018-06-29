@@ -43,7 +43,6 @@ describe Geokit::Geocoders::HereGeocoder do
     it 'returns valid location' do
       VCR.use_cassette("sunnyvale_location") do
         expect( subject.success?     ).to be true
-        expect( subject.province     ).to eq "Santa Clara"
         expect( subject.city         ).to eq "Sunnyvale"
         expect( subject.state_name   ).to eq "California"
         expect( subject.state_code   ).to eq "CA"

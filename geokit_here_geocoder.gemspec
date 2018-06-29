@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "geokit_here_geocoder"
-  spec.version       = "0.0.4"
+  spec.version       = "0.0.5"
   spec.authors       = ["Serhiy Rozum"]
   spec.email         = ["contact@easypost.com"]
   spec.summary       = %q{Geokit custom geocoder for Here.com service}

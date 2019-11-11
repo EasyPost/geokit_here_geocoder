@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://reverse.geocoder.cit.api.here.com/6.2/reversegeocode.xml?additionaldata=Country2,1&app_code=<HERE_APP_CODE>&app_id=<HERE_APP_ID>&gen=9&language=en-US&maxresults=1&mode=retrieveAddresses&prox=37.93053,-122.34358,250
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Nov 2019 22:03:24 GMT
+      Content-Type:
+      - application/xml;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Server:
+      - nginx-clojure
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Served-By:
+      - i-0febd699fbbdcf495.us-west-2b
+      X-Nlp-Tid:
+      - 6d2e46a2-7d90-4156-aab1-8c595e4b23f4
+      Vary:
+      - Accept-Encoding
+      X-Nlp-Irt:
+      - '4558'
+    body:
+      encoding: ASCII-8BIT
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2019-11-11T22:03:24.849Z</Timestamp><NextPageInformation>2</NextPageInformation></MetaInfo><View
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:SearchResultsViewType"><ViewId>0</ViewId><Result><Relevance>1.0</Relevance><Distance>3.5</Distance><MatchLevel>houseNumber</MatchLevel><MatchQuality><Country>1.0</Country><State>1.0</State><County>1.0</County><City>1.0</City><District>1.0</District><Street>1.0</Street><HouseNumber>1.0</HouseNumber><PostalCode>1.0</PostalCode></MatchQuality><MatchType>interpolated</MatchType><Location><LocationId>NT_O1ECr0RHU.ggJtLGox-33A_l_23635076_R_xEDO</LocationId><LocationType>address</LocationType><DisplayPosition><Latitude>37.9305301</Latitude><Longitude>-122.3434851</Longitude></DisplayPosition><NavigationPosition><Latitude>37.9305301</Latitude><Longitude>-122.34362</Longitude></NavigationPosition><MapView><TopLeft><Latitude>37.9316542</Latitude><Longitude>-122.3449103</Longitude></TopLeft><BottomRight><Latitude>37.9294059</Latitude><Longitude>-122.3420599</Longitude></BottomRight></MapView><Address><Label>118
+        S 27th St, Richmond, CA 94804, United States</Label><Country>USA</Country><State>CA</State><County>Contra
+        Costa</County><City>Richmond</City><District>Pullman</District><Street>S 27th
+        St</Street><HouseNumber>118</HouseNumber><PostalCode>94804</PostalCode><AdditionalData
+        key="Country2">US</AdditionalData><AdditionalData key="CountryName">United
+        States</AdditionalData><AdditionalData key="StateName">California</AdditionalData><AdditionalData
+        key="CountyName">Contra Costa</AdditionalData><AdditionalData key="PostalCodeType">N</AdditionalData></Address><MapReference><ReferenceId>23635076</ReferenceId><MapId>NAAM19134</MapId><MapVersion>Q1/2019</MapVersion><MapReleaseDate>2019-10-25</MapReleaseDate><Spot>0.49</Spot><SideOfStreet>right</SideOfStreet><CountryId>21000001</CountryId><StateId>21009408</StateId><CountyId>21009456</CountyId><CityId>21009489</CityId></MapReference></Location></Result></View></Response></ns2:Search>
+    http_version: 
+  recorded_at: Mon, 11 Nov 2019 22:03:24 GMT
+recorded_with: VCR 5.0.0

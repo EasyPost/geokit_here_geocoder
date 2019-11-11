@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://reverse.geocoder.cit.api.here.com/6.2/reversegeocode.xml?additionaldata=Country2,1&app_code=<HERE_APP_CODE>&app_id=<HERE_APP_ID>&gen=9&language=en-US&maxresults=1&mode=retrieveAddresses&prox=37.7692014,-122.7737106,250
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Nov 2019 22:03:25 GMT
+      Content-Type:
+      - application/xml;charset=utf-8
+      Content-Length:
+      - '224'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx-clojure
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Served-By:
+      - i-0febd699fbbdcf495.us-west-2b
+      X-Nlp-Tid:
+      - c33e88aa-254f-4bc0-b262-152cab69100c
+      X-Nlp-Irt:
+      - '1629'
+    body:
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2019-11-11T22:03:25.046Z</Timestamp></MetaInfo></Response></ns2:Search>
+    http_version: 
+  recorded_at: Mon, 11 Nov 2019 22:03:25 GMT
+recorded_with: VCR 5.0.0

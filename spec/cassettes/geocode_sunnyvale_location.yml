@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://geocoder.cit.api.here.com/6.2/geocode.xml?additionaldata=Country2,1&app_code=<HERE_APP_CODE>&app_id=<HERE_APP_ID>&gen=9&language=en-US&searchtext=Sunnyvale,%20CA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 11 Nov 2019 22:03:24 GMT
+      Content-Type:
+      - application/xml;charset=utf-8
+      Content-Length:
+      - '626'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx-clojure
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Served-By:
+      - i-09a2ce08fa1f4510d.us-west-2b
+      X-Nlp-Log:
+      - Z2NfYz1VU0EgZ2NfbD1jaXR5IGdjX209YXI=
+      X-Nlp-Tid:
+      - 24f2b4d6-8794-4a58-9f02-49a7221446e4
+      X-Nlp-Irt:
+      - '843'
+    body:
+      encoding: ASCII-8BIT
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:Search xmlns:ns2="http://www.navteq.com/lbsp/Search-Search/4"><Response><MetaInfo><Timestamp>2019-11-11T21:59:15.406Z</Timestamp></MetaInfo><View
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:SearchResultsViewType"><ViewId>0</ViewId><Result><Relevance>1.0</Relevance><MatchLevel>city</MatchLevel><MatchQuality><State>1.0</State><City>1.0</City></MatchQuality><Location><LocationId>NT_FE3T7HawlbK76SxDmyKlUA</LocationId><LocationType>area</LocationType><DisplayPosition><Latitude>37.37172</Latitude><Longitude>-122.03801</Longitude></DisplayPosition><NavigationPosition><Latitude>37.37172</Latitude><Longitude>-122.03801</Longitude></NavigationPosition><MapView><TopLeft><Latitude>37.45103</Latitude><Longitude>-122.06566</Longitude></TopLeft><BottomRight><Latitude>37.33227</Latitude><Longitude>-121.98241</Longitude></BottomRight></MapView><Address><Label>Sunnyvale,
+        CA, United States</Label><Country>USA</Country><State>CA</State><County>Santa
+        Clara</County><City>Sunnyvale</City><PostalCode>94086</PostalCode><AdditionalData
+        key="Country2">US</AdditionalData><AdditionalData key="CountryName">United
+        States</AdditionalData><AdditionalData key="StateName">California</AdditionalData><AdditionalData
+        key="CountyName">Santa Clara</AdditionalData><AdditionalData key="PostalCodeType">N</AdditionalData></Address></Location></Result></View></Response></ns2:Search>
+    http_version: 
+  recorded_at: Mon, 11 Nov 2019 22:03:24 GMT
+recorded_with: VCR 5.0.0
